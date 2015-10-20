@@ -32,7 +32,7 @@ public class MovePlayer : MonoBehaviour
 		}
 		else
 		{
-			transf.Translate(new Vector3(0f, 0.015f, 0));
+			transf.Translate(new Vector3(0f, 0.001f, 0));
 			return "UP";
 			//return "IDLE";
 		}
